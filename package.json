@@ -1,0 +1,21 @@
+{
+  "name": "blockchain_practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "block.js",
+  "scripts": {
+    "start": "node block.js",
+    "watch": "nodemon --exec babel-node block.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bassel Al-Sayed",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "crypto-js": "^4.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
